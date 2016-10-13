@@ -1,7 +1,7 @@
 # nukiproxy
 A simple proxy to sit between the Nuki bridge and openHAB (since the openHAB REST API requires `Content-Type=text/plain` but Nuki sends `application/json`)
 
-Copy `nukiproxy.ini.example' -> 'nukiproxy.ini` and update with your settings.
+Copy `nukiproxy.ini.example` -> `nukiproxy.ini` and update with your settings.
 
 Run via `python nukiproxy.py`.
 
