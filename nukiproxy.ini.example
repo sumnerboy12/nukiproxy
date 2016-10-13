@@ -1,0 +1,18 @@
+[global]
+DEBUG                        = True
+
+[nukiproxy]
+NUKIPROXY_HOST               = 0.0.0.0
+NUKIPROXY_PORT               = 9090
+NUKIPROXY_ENDPOINT           = /
+
+[openhab]
+OPENHAB_HOST                 = localhost
+OPENHAB_PORT                 = 8080
+OPENHAB_USER                 = user
+OPENHAB_PASSWORD             = password
+
+OPENHAB_ITEM_LOCKED          = VT_Lock_Locked           # ContactItem
+OPENHAB_ITEM_STATE           = VT_Lock_State            # NumberItem
+OPENHAB_ITEM_STATENAME       = VT_Lock_StateName        # StringItem
+OPENHAB_ITEM_BATTERYCRITICAL = VT_Lock_BatteryCritical  # SwitchItem
